@@ -1,0 +1,44 @@
+site_name: Документация методов API
+theme:
+  name: material
+  features:
+    - navigations.tabs
+    - navigations.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: ru
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Перейти на тёмную тему
+      primary: teal
+      accent: purple
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Перейти на светлую тему
+      primary: teal
+      accent: lime
+
+copyright: 2024 Михалкин Дмитрий
+
+markdown_extensions:
+  - pymdownx_blocks.dirtree
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
